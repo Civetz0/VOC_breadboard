@@ -138,16 +138,14 @@ float signal_humidity(uint16_t humidity_ticks);
  * @param[in] measurement_repeatability The repeatability of the periodic
  * measurement
  * @param[in] is_clock_stretching Toggle clock stretching
- * @param[out] a_temperature Converted from ticks to degrees celsius by -45 +
- * (175 * value / 65535)
- * @param[out] a_humidity Converted from ticks to relative humidity by 100 *
- * value / 65535
+ * @param[out] a_temperature Raw in ticks
+ * @param[out] a_humidity Raw in ticks
  *
  * @return error_code 0 on success, an error code otherwise.
  */
 int16_t sht3x_measure_single_shot(repeatability measurement_repeatability,
                                   bool is_clock_stretching,
-                                  float* a_temperature, float* a_humidity);
+                                  uint16_t* a_temperature, uint16_t* a_humidity);
 
 /**
  * @brief sht3x_start_periodic_measurement

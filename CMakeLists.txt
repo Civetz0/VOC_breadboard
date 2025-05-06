@@ -11,6 +11,7 @@ add_library(sensor_drivers
         sensirion_i2c_hal.c
         sgp40_i2c.c
         sht3x_i2c.c
+        svm41_i2c.c
 )
 
 

@@ -79,6 +79,12 @@ build CMakeFiles/sensor_drivers.dir/sht3x_i2c.c.obj: C_COMPILER__sensor_drivers_
   OBJECT_DIR = CMakeFiles\sensor_drivers.dir
   OBJECT_FILE_DIR = CMakeFiles\sensor_drivers.dir
 
+build CMakeFiles/sensor_drivers.dir/svm41_i2c.c.obj: C_COMPILER__sensor_drivers_unscanned_Debug C$:/Users/save0/CLionProjects/VOC_breadboard/svm41_i2c.c || cmake_object_order_depends_target_sensor_drivers
+  DEP_FILE = CMakeFiles\sensor_drivers.dir\svm41_i2c.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\sensor_drivers.dir
+  OBJECT_FILE_DIR = CMakeFiles\sensor_drivers.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target sensor_drivers
@@ -87,7 +93,7 @@ build CMakeFiles/sensor_drivers.dir/sht3x_i2c.c.obj: C_COMPILER__sensor_drivers_
 #############################################
 # Link the static library libsensor_drivers.a
 
-build libsensor_drivers.a: C_STATIC_LIBRARY_LINKER__sensor_drivers_Debug CMakeFiles/sensor_drivers.dir/sensirion_common.c.obj CMakeFiles/sensor_drivers.dir/sensirion_i2c.c.obj CMakeFiles/sensor_drivers.dir/sensirion_i2c_hal.c.obj CMakeFiles/sensor_drivers.dir/sgp40_i2c.c.obj CMakeFiles/sensor_drivers.dir/sht3x_i2c.c.obj
+build libsensor_drivers.a: C_STATIC_LIBRARY_LINKER__sensor_drivers_Debug CMakeFiles/sensor_drivers.dir/sensirion_common.c.obj CMakeFiles/sensor_drivers.dir/sensirion_i2c.c.obj CMakeFiles/sensor_drivers.dir/sensirion_i2c_hal.c.obj CMakeFiles/sensor_drivers.dir/sgp40_i2c.c.obj CMakeFiles/sensor_drivers.dir/sht3x_i2c.c.obj CMakeFiles/sensor_drivers.dir/svm41_i2c.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\sensor_drivers.dir
   POST_BUILD = cd .

@@ -67,7 +67,7 @@ float signal_humidity(uint16_t humidity_ticks) {
 
 int16_t sht3x_measure_single_shot(repeatability measurement_repeatability,
                                   bool is_clock_stretching,
-                                  float* a_temperature, float* a_humidity) {
+                                  uint16_t* a_temperature, uint16_t* a_humidity) {
     uint16_t raw_temp = 0;
     uint16_t raw_humi = 0;
     int16_t local_error = 0;
@@ -113,8 +113,8 @@ int16_t sht3x_measure_single_shot(repeatability measurement_repeatability,
             return local_error;
         }
     }
-    *a_temperature = signal_temperature(raw_temp);
-    *a_humidity = signal_humidity(raw_humi);
+    *a_temperature = raw_temp;
+    *a_humidity = raw_humi;
     return local_error;
 }
 

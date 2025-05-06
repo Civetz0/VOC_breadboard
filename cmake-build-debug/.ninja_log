@@ -1,15 +1,8 @@
 # ninja log v6
-13	116	7681576030316435	CMakeFiles/VOC_breadboard.dir/main.c.obj	a13f1391da4791d9
-4	345	7681587458320804	build.ninja	4e5f80bfd447d2f4
-26	833	7681587491010890	CMakeFiles/sensor_drivers.dir/sgp40_i2c.c.obj	4e8e5b65e2a8af08
-8	842	7681587490831394	CMakeFiles/sensor_drivers.dir/sensirion_common.c.obj	92486c9f5a156e80
-13	846	7681587490881305	CMakeFiles/sensor_drivers.dir/sensirion_i2c.c.obj	35b7ecb55922cbea
-39	847	7681587491140560	CMakeFiles/VOC_breadboard.dir/main.c.obj	762523eb33bc20ea
-31	890	7681587491060756	CMakeFiles/sensor_drivers.dir/sht3x_i2c.c.obj	9fbbcc95407aa3eb
-92	106	7682212719561043	clean	a931c57e3a3bd107
-2	18	7682212931687029	clean	a931c57e3a3bd107
-24	325	7682212933018470	CMakeFiles/sensor_drivers.dir/sgp40_i2c.c.obj	4e8e5b65e2a8af08
-7	329	7682212932838962	CMakeFiles/sensor_drivers.dir/sensirion_common.c.obj	92486c9f5a156e80
 34	334	7682212933118205	CMakeFiles/VOC_breadboard.dir/main.c.obj	762523eb33bc20ea
+7	329	7682212932838962	CMakeFiles/sensor_drivers.dir/sensirion_common.c.obj	92486c9f5a156e80
+2	18	7682212931687029	clean	a931c57e3a3bd107
+4	345	7682388476748313	build.ninja	4e5f80bfd447d2f4
+24	325	7682212933018470	CMakeFiles/sensor_drivers.dir/sgp40_i2c.c.obj	4e8e5b65e2a8af08
 14	340	7682212932908771	CMakeFiles/sensor_drivers.dir/sensirion_i2c.c.obj	35b7ecb55922cbea
 29	375	7682212933058367	CMakeFiles/sensor_drivers.dir/sht3x_i2c.c.obj	9fbbcc95407aa3eb
