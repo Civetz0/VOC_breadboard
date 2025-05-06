@@ -22,7 +22,7 @@ int main(void) {
     // Optional: write header only if file is new
     fprintf(logfile, "Timestamp,Temperature_C,Humidity_pct,Raw_VOC\n");
 
-    for (int i = 0; i < 60; i++) {
+    for (int i = 0; i < 900; i++) {
         uint16_t sraw_voc = 0;
         float temperature = 0;
         float humidity = 0;
