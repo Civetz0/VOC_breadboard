@@ -1,0 +1,4 @@
+C:/Users/save0/CLionProjects/VOC_breadboard/cmake-build-debug/CMakeFiles/sensor_drivers.dir
+C:/Users/save0/CLionProjects/VOC_breadboard/cmake-build-debug/CMakeFiles/VOC_breadboard.dir
+C:/Users/save0/CLionProjects/VOC_breadboard/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/save0/CLionProjects/VOC_breadboard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
