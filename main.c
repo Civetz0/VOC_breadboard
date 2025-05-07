@@ -42,7 +42,7 @@ int main(void) {
     }
     rewind(logfile);
 
-    for (int i = 0; i < 3600; i++) {
+    while (1) {
 
         // sgp40 variables
         uint16_t sgp40_sraw_voc = 0;
