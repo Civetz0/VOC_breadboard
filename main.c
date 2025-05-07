@@ -53,6 +53,8 @@ int main(void) {
         float sht31_humidity = 0;
         float sht31_temperature = 0;
 
+        float sht31_humidity_offset = 2.8; //offset to sht31 humidity in %
+
 
         //svm41 variables
         int16_t svm41_humidity_ticks;
@@ -73,6 +75,10 @@ int main(void) {
             fprintf(stderr, "Error executing measure_single_shot(): %i\n", error);
             continue;
         }
+
+        //Humidity compensation in ticks
+        sht31_humidity_ticks = sht31_humidity_ticks + (uint16_t)((sht31_humidity_offset * 65535.0) / 100.0);
+
         // Convert to true values in  °C and %
         sht31_humidity = signal_humidity(sht31_humidity_ticks);
         sht31_temperature = signal_temperature(sht31_temperature_ticks);
