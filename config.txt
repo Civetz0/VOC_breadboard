@@ -1,0 +1,2 @@
+oversample_count = 5
+humidity_offset = 3.8
