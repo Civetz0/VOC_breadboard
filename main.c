@@ -134,6 +134,8 @@ int main(int argc, char* argv[]) {
 
     while (1) {
 
+        sensirion_i2c_hal_sleep_usec(1000000);  // 1-second delay
+
         //------------------------------------SHT31----------------------------------
         //sht31 variables
         uint16_t sht31_temperature_ticks = 0;
@@ -242,8 +244,6 @@ int main(int argc, char* argv[]) {
 
         }
 
-
-        sensirion_i2c_hal_sleep_usec(1000000);  // 1-second delay
 
         }
 
